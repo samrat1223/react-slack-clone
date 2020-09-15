@@ -1,0 +1,25 @@
+1. wireframing -- drawing of our projects how the final product will look like
+
+
+2 .functionaqlity --
+    ^ sign in & up
+    ^ create channel 
+    ^ sending messages in the channel
+    ^ join in the channel
+    ^ search for a particular channel
+
+
+3. Data
+    ^ storing users
+    ^ stioring channels
+    ^ storing messages
+
+4. UI components
+    ^ Sidebar
+      -> List of channels
+      -> List of directmessgaes
+    ^ main container
+      -> Header
+      -> message
+      -> Create Message
+    ^ Sign In/Up form
