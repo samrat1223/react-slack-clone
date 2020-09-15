@@ -22,3 +22,17 @@ git remote add origin https://github.com/samrat1223/react-slack-clone.git
 npm start OR yarn start
 
 ```
+
+# Project Structure
+
+```
+H:\REACT-SLACK-CLONE\SRC
+│   index.css
+│   index.js
+│
+└───components
+        App.js
+        index.js
+        SignIn.js
+
+```
