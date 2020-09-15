@@ -15,6 +15,7 @@
     ^ storing messages
 
 4. UI components
+    ^ Slack Component
     ^ Sidebar
       -> List of channels
       -> List of directmessgaes

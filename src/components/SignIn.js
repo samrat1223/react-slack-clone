@@ -4,8 +4,9 @@ import React, {Component} from 'react';
 
 	render() {
 		return (
-			<div>
-        		Sign In
+			<div className="signin-form">
+				<h1>Sign In/Sign Up</h1>
+        		<button>Sign In with Google/Sign Up with Google</button>
 			</div>
 		);
 	}
