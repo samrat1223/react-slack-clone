@@ -5,7 +5,7 @@ import React, {Component} from 'react';
 	render() {
 		return (
 			<div className="signin-form">
-				<h1>Sign In/Sign Up</h1>
+				<h1>Sign In / Sign Up</h1>
         		<button>Sign In with Google/Sign Up with Google</button>
 			</div>
 		);
