@@ -1,4 +1,5 @@
 import React from 'react';
+import {SignIn} from './';
 
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       
         Hello world
+        <SignIn/>
 
 
     </div>
