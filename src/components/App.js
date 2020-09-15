@@ -1,6 +1,6 @@
 import React , {Component} from 'react';
 import {Switch,Route} from 'react-router-dom';
-import {SignIn} from './';
+import {SignIn,Slack} from './';
 
 
 
@@ -27,7 +27,7 @@ import {SignIn} from './';
           <Switch>
             <Route exact path ="/" component={SignIn} />
              <Route exact path ="/home" component={Home} />
-              <Route exact path ="/some" component={Some} />
+              <Route exact path ="/slack" component={Slack} />
           </Switch> 
 
         </div> 
