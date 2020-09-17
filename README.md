@@ -27,12 +27,20 @@ npm start OR yarn start
 
 ```
 H:\REACT-SLACK-CLONE\SRC
+│   firebase.js
 │   index.css
 │   index.js
 │
-└───components
-        App.js
-        index.js
-        SignIn.js
+├───components
+│       App.js
+│       index.js
+│       MainContainer.js
+│       Sidebar.js
+│       SignIn.js
+│       Slack.js
+│
+└───providers
+        UserProvider.js
+
 
 ```
