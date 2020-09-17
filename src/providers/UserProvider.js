@@ -19,24 +19,23 @@ state = initialUserState ;
         {
             const userRef = await createOrGetUserProfileDocuments(userAuth);
 
-            console.log('userRef',userRef);
-
+          
+        // This is a socket i.e. if we change something from firebase side it will change in the application also //
             userRef.onSnapshot(snapshot => {
-               console.log('snapshot',snapshot);
-               console.log('snapshot data',snapshot.data());
                 this.setState({
                     user : {uid : snapshot.id , ...snapshot.data()},
                     loading : false, 
-                })
-            })
+                });
+            });
         }
+        this.setState({user : userAuth , loading : false});
     });
   }
 
     render() {
+        const {user , loading} = this.state ;
         return (
-            
-                <UserContext.Provider value = {this.state}>
+                <UserContext.Provider value = {{user,loading}}>
                 {this.props.children}
                 </UserContext.Provider>
                 
