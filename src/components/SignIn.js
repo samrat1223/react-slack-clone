@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {signInWithGoogle} from '../firebase';
+import {signInWithGoogle , signOut} from '../firebase';
 
  class SignIn extends Component {
 
@@ -20,6 +20,9 @@ import {signInWithGoogle} from '../firebase';
 				  />
         		   Sign Up with Google
         		 </button>
+
+				 <br></br>
+				 <button onClick={signOut}>Logout</button>
 			</div>
 		);
 	}
